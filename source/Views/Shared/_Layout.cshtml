@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Brainmonkey :: @ViewBag.Title</title>
+    <link href="@Url.Content("~/content/css/brains.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="wrapper">
+        <div id="photo"></div>
+        <div id="menu"></div>
+        <div id="content">
+            <h3>Gary Thickett</h3>
+            <p>
+                Here is some information about me and what I do. The links above will show more about me my work etc
+            </p>
+        </div>
+        @RenderBody()
+        <div id="footer">
+            <img src="/content/images/avatar.png" /><span>Gary Thickett</span>
+        </div>
+    </div>
+</body>
+</html>

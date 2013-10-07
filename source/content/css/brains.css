@@ -1,0 +1,11 @@
+﻿html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;	padding: 0;	border: 0;	outline: 0;}:focus {outline: 0;}ol, ul {list-style: none;}table {border-collapse: separate;	border-spacing: 0;}caption, th, td {text-align: left;font-weight: normal;}blockquote:before, blockquote:after,q:before, q:after {content: "";}blockquote, q {quotes: "" "";}
+
+body { background:#e8e3e0;color:#666;font-family:'Segoe UI';font-size:14px; }
+
+#wrapper {background:#fff;height:400px;margin:50px auto 0 auto;position:relative;width:265px; }
+#photo { height:175px;}
+#menu { background:#00b58c;height:40px;}
+#content { padding:14px;}
+#content h3 { color:#333232;font-size:18px;font-weight:normal; }
+#footer {border-top:1px solid #f7f7f7;bottom:0px;color:#adadad;font-size:13px;height:35px;position:absolute;width:100%;}
+#footer img { margin-right:10px;vertical-align: middle; }
